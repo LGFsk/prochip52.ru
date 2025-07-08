@@ -1,0 +1,94 @@
+
+
+.modal-backdrop {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1200;
+}
+
+.modal {
+  background: #f1f1f1; /* Новый светло-серый фон */
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.modal-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 80px;
+  max-height: 200px; /* ограничение по высоте */
+}
+
+form button {
+  background: #222;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.consent-checkbox input {
+  margin-top: 2px;
+}
+
+.consent-checkbox a {
+  color: #facc15;
+  text-decoration: underline;
+}
+
+.consent-checkbox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+  margin: 15px 0;
+  font-size: 0.89rem;
+  color: #000;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+
+
+.consent-checkbox span {
+  display: inline-block;
+  flex: 1;
+}

@@ -1,0 +1,41 @@
+
+.steps-section {
+  padding: 60px 20px;
+  background: #f7f7f7;
+}
+
+.steps-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.step-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.step-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.step-icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 10px;
+  filter: brightness(0) saturate(100%) invert(65%) sepia(95%) saturate(1700%) hue-rotate(7deg) brightness(102%) contrast(105%);
+}

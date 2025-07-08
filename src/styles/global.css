@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+
+main {
+  padding-top: 80px;
+}
+
+html {
+  scroll-behavior: smooth;
+}

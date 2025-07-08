@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /src/
+Disallow: /node_modules/
+Allow: /
+
+Sitemap: https://prochip52.ru/sitemap.xml
